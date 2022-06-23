@@ -66,7 +66,8 @@ object ClientesMDB{
       "duration" -> 2.1,
       "info" -> Document(
         "name" -> "John Doe",
-        "tlf" -> "Example Number")
+        "tlf" -> "Example Number",
+        "email" -> "email@email.com")
     )
 
     collection2.insertOne(doc).subscribe(new Observer[Completed] {
