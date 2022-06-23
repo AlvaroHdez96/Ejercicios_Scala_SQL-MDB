@@ -64,9 +64,11 @@ object OficinasMDB{
       "active" -> true,
       "duration" -> 2.1,
       "info" -> Document(
-        "address" -> "John Doe",
+        "address" -> "Example Street",
         "tlf" -> "Example Number",
-        "email" -> "email@email.com")
+        "createdDate" -> 01/01/2001,
+        "sratus" -> true,
+        "income" -> 10000)
     )
 
     collection2.insertOne(doc).subscribe(new Observer[Completed] {
